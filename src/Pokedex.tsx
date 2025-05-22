@@ -3,7 +3,7 @@ import axios from "axios";
 import type { Pokemon } from "./interface/interfaces";
 import "./styles.css";
 
-export default function App() {
+export default function Pokedex() {
   const [currentPokemon, setCurrentPokemon] = useState<number>(1);
   const [pokemon, setPokemon] = useState<Pokemon>({
     abilities: [],
