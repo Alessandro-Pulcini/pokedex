@@ -5,7 +5,12 @@ const Layout = () => {
     <div>
       <nav>
         <ul>
-          <Link to="/">Home</Link>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/pokedex">Pokedex</Link>
+          </li>
         </ul>
       </nav>
       <Outlet />
