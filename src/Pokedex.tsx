@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import type { Pokemon } from "./interface/interfaces";
-import "./styles.css";
 
 export default function Pokedex() {
   const [currentPokemon, setCurrentPokemon] = useState<number>(1);
